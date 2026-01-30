@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کانفیگ‌های کانال تلگرام</title>
+    <style>
+        body {font-family: system-ui; background:#111; color:#eee; padding:20px; line-height:1.6;}
+        h1 {color:#0f0; text-align:center;}
+        ul {list-style:none; padding:0;}
+        li {background:#222; margin:12px 0; padding:16px; border-radius:8px;}
+        a {color:#0f8; text-decoration:none; word-break:break-all;}
+        .time {color:#aaa; font-size:0.9em;}
+    </style>
+</head>
+<body>
+    <h1>کانفیگ‌های استخراج‌شده (آپدیت هر ساعت)</h1>
+    <p id="status">در حال بارگذاری...</p>
+    <ul id="list"></ul>
+
+    <script>
+        const jsonUrl = 'https://raw.githubusercontent.com/sezaarir/configs/main/configs.json?' + Date.now();
+
+        fetch(jsonUrl)
+            .then(r => r.json())
+            .then(data => {
+                document.getElementById('status').textContent = `تعداد کانفیگ: ${data.length}`;
+                const ul = document.getElementById('list');
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    const type = item.link.split('://')[0].toUpperCase();
+                    li.innerHTML = `<strong>${type}</strong><br><a href="${item.link}">${item.desc}</a>`;
+                    ul.appendChild(li);
+                });
+            })
+            .catch(() => {
+                document.getElementById('status').textContent = 'خطا در بارگذاری – بعداً امتحان کن';
+            });
+    </script>
+</body>
+</html>
