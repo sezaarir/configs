@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 # نام کانال رو اینجا بگذار (بدون @)
-CHANNEL = 'نام_کانالت'  # مثلاً V2rayCollector یا هر کانالی که داری
+CHANNEL = 'prrofile_purple'  # مثلاً V2rayCollector یا هر کانالی که داری
 
 url = f'https://t.me/s/{CHANNEL}'
 headers = {
