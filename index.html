@@ -1,6 +1,6 @@
 <script>
     // پروکسی CORS برای دور زدن فیلترینگ raw.githubusercontent
-    const proxy = 'https://api.codetabs.com/v1/proxy?quest=';
+   const proxy = 'https://corsproxy.io/?' + encodeURIComponent(repoJson);
     const repoJson = 'https://raw.githubusercontent.com/sezaair/configs/main/configs.json';
     const jsonUrl = proxy + encodeURIComponent(repoJson) + '?' + Date.now();
 
