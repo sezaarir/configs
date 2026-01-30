@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "link": "trojan",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "vless",
+    "desc": "trojan://humanity@Foriran.mizbanit.com:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&host=www.creationlong.or…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "vless",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "trojan",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  },
+  {
+    "link": "ss",
+    "desc": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080 vless://e53a92c7-4a78-49cc-ab01-9176…"
+  }
+]
