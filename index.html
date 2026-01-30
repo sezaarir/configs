@@ -2,7 +2,7 @@
     // پروکسی CORS برای دور زدن فیلترینگ raw.githubusercontent
   const proxy = 'https://proxy.cors.sh/';
 // استفاده: proxy + repoJson (بدون encodeURIComponent اگر مستقیم باشه)
-    const repoJson = 'https://raw.githubusercontent.com/sezaair/configs/main/configs.json';
+    const repoJson = 'https://raw.githubusercontent.com/sezaarir/configs/main/configs.json';
     const jsonUrl = proxy + encodeURIComponent(repoJson) + '?' + Date.now();
 
     fetch(jsonUrl)
