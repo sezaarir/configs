@@ -4,7 +4,7 @@ import re
 import json
 
 # ← اینجا نام کانال خودت رو بدون @ بگذار
-CHANNEL = 'prrofile_purole'   # مثال: 'proxy_mtproto_ir' یا هر کانال دلخواه
+CHANNEL = 'prrofile_purple'   # مثال: 'proxy_mtproto_ir' یا هر کانال دلخواه
 
 url = f'https://t.me/s/{CHANNEL}'
 headers = {
