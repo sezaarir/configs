@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>کانفیگ‌های کانال تلگرام (کاملاً آفلاین/بدون فیلتر)</title>
+    <title>کانفیگ‌های کانال تلگرام (کاملاً محلی)</title>
     <style>
         body {font-family: system-ui; background:#111; color:#eee; padding:20px; line-height:1.6;}
         h1 {color:#0f0; text-align:center;}
         ul {list-style:none; padding:0;}
         li {background:#222; margin:12px 0; padding:16px; border-radius:8px; cursor:pointer;}
         .summary {color:#0f8; font-weight:bold;}
-        .full-desc {display:none; margin-top:10px; padding:10px; background:#333; border-radius:6px; white-space:pre-wrap;}
-        .copy-btn {background:#0f0; color:#000; border:none; padding:6px 12px; border-radius:4px; cursor:pointer; margin-top:10px;}
+        .full-desc {display:none; margin-top:10px; padding:10px; background:#333; border-radius:6px; white-space:pre-wrap; font-size:0.95em;}
+        .copy-btn {background:#0f0; color:#000; border:none; padding:8px 16px; border-radius:6px; cursor:pointer; margin-top:10px; font-weight:bold;}
+        .copy-btn:hover {background:#0c0;}
         .note {background:#444; padding:15px; border-radius:8px; margin:20px 0;}
     </style>
 </head>
 <body>
     <h1>کانفیگ‌های استخراج‌شده از کانال</h1>
     <div class="note">
-        این صفحه کاملاً محلی و بدون نیاز به اینترنت خارجی کار می‌کنه.<br>
-        برای به‌روز کردن: وقتی اینترنت داری، محتوای configs.json رو از raw.githubusercontent.com کپی کن و در کد JS (متغیر configs) جایگزین کن و commit بزن.<br>
-        ذخیره کن (Ctrl+S → Webpage Complete) تا همیشه آفلاین باز بشه.
+        این صفحه محلی است و بدون اینترنت خارجی کار می‌کند.<br>
+        روی هر پیام کلیک کنید → پیام کامل باز می‌شود.<br>
+        دکمه "کپی کل پیام" → کل متن پیام (برای پیست در اپ V2rayNG/Hiddify) کپی می‌شود.<br>
+        برای به‌روز کردن: محتوای جدید configs.json را در متغیر configs جایگزین کنید.
     </div>
     <p id="status">در حال بارگذاری...</p>
     <ul id="list"></ul>
 
     <script>
-        // ← محتوای configs.json رو اینجا paste کن (از raw کپی شده)
-        const configs = [  // مثال: جایگزین کن با محتوای واقعی json
+        // محتوای configs.json را اینجا paste کنید (از raw کپی شده)
+        const configs = [  
+            // مثال - محتوای واقعی json را جایگزین کنید
             {
-                "link": "vmess://example-link-1",
-                "desc": "پیام کامل اول از کانال - توضیحات طولانی که اینجا نمایش داده میشه..."
-            },
-            {
-                "link": "vless://example-link-2",
-                "desc": "پیام دوم با جزئیات بیشتر..."
+                "link": "vmess://eyJhZGQiOiIxOTIuMTY4LjEuMSIsInBvcnQiOiI0NDMiLCJpZCI6IjEyMzQtNTY3OC05MDEyLTM0NTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6InRscyIsInBzIjoiRXhhbXBsZSJ9Cg==",
+                "desc": "پیام کامل تلگرام شامل توضیحات + چند کانفیگ vmess و vless پشت سر هم\nvmess://eyJhZGQiOiIxOTIuMTY4LjEuMSIsInBvcnQiOiI0NDMiLCJpZCI6IjEyMzQtNTY3OC05MDEyLTM0NTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6InRscyIsInBzIjoiRXhhbXBsZSJ9\nvless://uuid@ip:port?security=tls&type=tcp#نام سرور"
             }
-            // همه آیتم‌ها رو اینجا بگذار (بدون fetch)
+            // همه آیتم‌های json را اینجا بگذارید
         ];
 
-        document.getElementById('status').textContent = `تعداد کانفیگ: ${configs.length} (نسخه محلی - بدون فیلتر)`;
+        document.getElementById('status').textContent = `تعداد پیام/گروه کانفیگ: ${configs.length} (نسخه محلی)`;
 
         const ul = document.getElementById('list');
         ul.innerHTML = '';
         configs.forEach((item, index) => {
             const li = document.createElement('li');
-            const type = item.link.split('://')[0].toUpperCase();
+            const type = item.link.startsWith('vmess') ? 'VMess' : item.link.startsWith('vless') ? 'VLESS' : 'دیگر';
+            const fullText = item.desc;  // کل متن پیام تلگرام
+
             li.innerHTML = `
-                <span class="summary">${type}: ${item.desc.slice(0, 60) + (item.desc.length > 60 ? '...' : '')}</span>
-                <div class="full-desc" id="desc-${index}">${item.desc}</div>
-                <a href="${item.link}" style="display:block; margin:10px 0; color:#0f8;">لینک کانفیگ کامل (کلیک برای ایمپورت در اپ)</a>
-                <button class="copy-btn" onclick="copyLink('${item.link.replace(/'/g, "\\'")}')">کپی لینک کانفیگ</button>
+                <span class="summary">${type} - خلاصه: ${fullText.slice(0, 60) + (fullText.length > 60 ? '...' : '')}</span>
+                <div class="full-desc" id="desc-${index}">${fullText.replace(/\n/g, '<br>')}</div>
+                <button class="copy-btn" onclick="copyFullMessage('${index}')">کپی کل پیام (برای پیست در اپ)</button>
             `;
             li.onclick = (e) => {
-                if (e.target.tagName !== 'BUTTON' && e.target.tagName !== 'A') {
+                if (e.target.tagName !== 'BUTTON') {
                     const desc = document.getElementById(`desc-${index}`);
                     desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
                 }
@@ -61,11 +61,12 @@
             ul.appendChild(li);
         });
 
-        function copyLink(link) {
-            navigator.clipboard.writeText(link).then(() => {
-                alert('لینک کپی شد! در اپ V2RayNG/Nekobox/Hiddify پیست کن.');
+        function copyFullMessage(index) {
+            const fullMsg = configs[index].desc;
+            navigator.clipboard.writeText(fullMsg).then(() => {
+                alert('کل پیام کپی شد! حالا در اپ (V2rayNG/Hiddify/Nekobox) بروید به بخش Import → From Clipboard و پیست کنید.');
             }).catch(() => {
-                alert('کپی نشد – دستی انتخاب و کپی کن.');
+                alert('کپی نشد. متن زیر را دستی انتخاب و کپی کنید:\n\n' + fullMsg);
             });
         }
     </script>
