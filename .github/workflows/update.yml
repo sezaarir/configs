@@ -1,16 +1,15 @@
-name: Update Telegram Configs
+name: Update Configs TXT
 
 on:
   schedule:
-    - cron: '0 * * * *'     # هر ساعت، دقیقه ۰
-  workflow_dispatch:        # اجازه اجرای دستی از تب Actions
+    - cron: '*/5 * * * *'   # هر ۵ دقیقه
+  workflow_dispatch:       # دستی هم می‌تونی اجرا کنی
 
 jobs:
-  scrape:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -18,17 +17,15 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4
 
       - name: Run scraper
         run: python scrape.py
 
-      - name: Commit and push changes if any
+      - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add configs.json
-          git commit -m "Auto update configs from channel" || echo "No changes to commit"
-          git push
+          git add all_configs.txt
+          git diff --staged --quiet && echo "هیچ تغییری نیست" || git commit -m "آپدیت خودکار کانفیگ‌ها هر ۵ دقیقه"
+          git push || echo "Push نشد ولی ادامه می‌دیم"
