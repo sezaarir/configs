@@ -8,53 +8,71 @@
         body {font-family: system-ui; background:#111; color:#eee; padding:20px; line-height:1.6;}
         h1 {color:#0f0; text-align:center;}
         ul {list-style:none; padding:0;}
-        li {background:#222; margin:12px 0; padding:16px; border-radius:8px;}
-        a {color:#0f8; text-decoration:none; word-break:break-all;}
-        .time {color:#aaa; font-size:0.9em;}
+        li {background:#222; margin:12px 0; padding:16px; border-radius:8px; cursor:pointer;}
+        .summary {color:#0f8; font-weight:bold;}
+        .full-desc {display:none; margin-top:10px; padding:10px; background:#333; border-radius:6px; white-space:pre-wrap;}
+        .copy-btn {background:#0f0; color:#000; border:none; padding:6px 12px; border-radius:4px; cursor:pointer; margin-top:10px;}
+        .download-link {text-align:center; margin:20px 0;}
+        a.download {color:#0f0; text-decoration:none;}
     </style>
 </head>
 <body>
-    <h1>کانفیگ‌های استخراج‌شده (آپدیت هر ساعت)</h1>
+    <h1>کانفیگ‌های استخراج‌شده (آپدیت هر ۵ دقیقه)</h1>
     <p id="status">در حال بارگذاری...</p>
     <ul id="list"></ul>
+    <div class="download-link"><a class="download" href="https://raw.githubusercontent.com/sezaarir/configs/main/configs.json" download>دانلود فایل کامل کانفیگ‌ها (JSON)</a></div>
 
     <script>
-        // لیست پروکسی‌های جدید و تست‌شده ۲۰۲۶ (یکی یکی امتحان می‌کنه)
+        // لیست پروکسی‌ها (اگر بدون فیلترشکن کار نکرد، یکی رو امتحان کن)
         const proxies = [
-            'https://corsproxy.io/?',               // اغلب خوب کار می‌کنه
-            'https://api.allorigins.win/raw?url=',  // ساده و بدون محدودیت زیاد
-            'https://proxy.cors.sh/',               // سریع، اما ممکنه نیاز به key داشته باشه (برای public رایگان)
-            ''                                      // بدون پروکسی (آخرین تلاش مستقیم)
+            'https://corsproxy.io/?',
+            'https://api.allorigins.win/raw?url=',
+            'https://proxy.cors.sh/',
+            ''
         ];
 
-        const repoJson = 'https://raw.githubusercontent.com/sezaarir/configs/main/configs.json';  // اگر نام repo sezaair هست، عوض کن به sezaair
+        const repoJson = 'https://raw.githubusercontent.com/sezaarir/configs/main/configs.json';  // اگر sezaair هست، عوض کن
 
         async function tryFetch() {
             for (let proxy of proxies) {
                 try {
                     let url = proxy ? proxy + encodeURIComponent(repoJson) : repoJson;
-                    url += (url.includes('?') ? '&' : '?') + Date.now();  // جلوگیری از کش
+                    url += (url.includes('?') ? '&' : '?') + Date.now();
 
                     const r = await fetch(url);
-                    if (!r.ok) throw new Error(`Status ${r.status} با پروکسی ${proxy || 'مستقیم'}`);
+                    if (!r.ok) throw new Error(`Status ${r.status}`);
 
                     const data = await r.json();
                     document.getElementById('status').textContent = `تعداد کانفیگ: ${data.length} (با پروکسی: ${proxy || 'مستقیم'})`;
 
                     const ul = document.getElementById('list');
-                    ul.innerHTML = '';  // پاک کردن قبلی
-                    data.forEach(item => {
+                    ul.innerHTML = '';
+                    data.forEach((item, index) => {
                         const li = document.createElement('li');
                         const type = item.link.split('://')[0].toUpperCase();
-                        li.innerHTML = `<strong>${type}</strong><br><a href="${item.link}">${item.desc || 'بدون توضیح'}</a>`;
+                        li.innerHTML = `
+                            <span class="summary">${type}: ${item.desc.slice(0, 50) + '...'}</span>
+                            <div class="full-desc" id="desc-${index}">${item.desc}</div>
+                            <a href="${item.link}" style="display:block; margin-top:5px; color:#0f8;">لینک کانفیگ: ${item.link.slice(0, 30) + '...'}</a>
+                            <button class="copy-btn" onclick="copyLink('${item.link}')">کپی لینک کانفیگ</button>
+                        `;
+                        li.onclick = () => {
+                            const desc = document.getElementById(`desc-${index}`);
+                            desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+                        };
                         ul.appendChild(li);
                     });
-                    return;  // موفق شد، ادامه نده
+                    return;
                 } catch (err) {
-                    console.log('پروکسی شکست: ' + (proxy || 'مستقیم') + ' → ' + err);
+                    console.log('پروکسی شکست: ' + err);
                 }
             }
-            document.getElementById('status').textContent = 'همه پروکسی‌ها شکست خوردند – صفحه رو ذخیره کن و بعداً امتحان کن';
+            document.getElementById('status').textContent = 'لود نشد – اینترنت/فیلترینگ چک کن';
+        }
+
+        function copyLink(link) {
+            navigator.clipboard.writeText(link);
+            alert('لینک کپی شد!');
         }
 
         tryFetch();
