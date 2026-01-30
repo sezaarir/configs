@@ -1,37 +1,30 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import json
 
-# ← اینجا نام کانال خودت رو بدون @ بگذار
-CHANNEL = 'prrofile_purple'   # مثال: 'proxy_mtproto_ir' یا هر کانال دلخواه
+CHANNEL = 'نام_کانالت_بدون_@'  # مثلاً 'prrofile_purple' یا هر کانال
 
 url = f'https://t.me/s/{CHANNEL}'
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-}
+headers = {'User-Agent': 'Mozilla/5.0'}
 
 try:
     response = requests.get(url, headers=headers, timeout=15)
-    response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
 
     messages = soup.find_all('div', class_='tgme_widget_message_text')
-    configs = []
+    output_lines = []
 
     for msg in messages:
-        text = msg.get_text(separator=' ', strip=True)
-        links = re.findall(r'(vmess|vless|trojan|ss)://[^\s<"]+', text)
-        for link in links:
-            # توضیح کوتاه از ابتدای پیام (حداکثر ۱۰۰ کاراکتر)
-            desc = text[:120].strip() + '…' if len(text) > 120 else text.strip()
-            configs.append({'link': link, 'desc': desc})
+        text = msg.get_text(separator='\n', strip=True)
+        if re.search(r'(vmess|vless|trojan|ss)://', text):
+            output_lines.append("--- پیام جدید ---")
+            output_lines.append(text)
+            output_lines.append("")  # خط خالی برای جداسازی
 
-    # ذخیره در فایل
-    with open('configs.json', 'w', encoding='utf-8') as f:
-        json.dump(configs, f, ensure_ascii=False, indent=2)
+    with open('all_configs.txt', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(output_lines))
 
-    print(f'تعداد کانفیگ استخراج‌شده: {len(configs)}')
+    print(f"نوشته شد: {len(output_lines)} خط")
 
 except Exception as e:
-    print(f'خطا: {str(e)}')
+    print(f"خطا: {e}")
