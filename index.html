@@ -19,23 +19,45 @@
     <ul id="list"></ul>
 
     <script>
-        const jsonUrl = 'https://raw.githubusercontent.com/sezaarir/configs/main/configs.json?' + Date.now();
+        // لیست پروکسی‌های جدید و تست‌شده ۲۰۲۶ (یکی یکی امتحان می‌کنه)
+        const proxies = [
+            'https://corsproxy.io/?',               // اغلب خوب کار می‌کنه
+            'https://api.allorigins.win/raw?url=',  // ساده و بدون محدودیت زیاد
+            'https://proxy.cors.sh/',               // سریع، اما ممکنه نیاز به key داشته باشه (برای public رایگان)
+            ''                                      // بدون پروکسی (آخرین تلاش مستقیم)
+        ];
 
-        fetch(jsonUrl)
-            .then(r => r.json())
-            .then(data => {
-                document.getElementById('status').textContent = `تعداد کانفیگ: ${data.length}`;
-                const ul = document.getElementById('list');
-                data.forEach(item => {
-                    const li = document.createElement('li');
-                    const type = item.link.split('://')[0].toUpperCase();
-                    li.innerHTML = `<strong>${type}</strong><br><a href="${item.link}">${item.desc}</a>`;
-                    ul.appendChild(li);
-                });
-            })
-            .catch(() => {
-                document.getElementById('status').textContent = 'خطا در بارگذاری – بعداً امتحان کن';
-            });
+        const repoJson = 'https://raw.githubusercontent.com/sezaarir/configs/main/configs.json';  // اگر نام repo sezaair هست، عوض کن به sezaair
+
+        async function tryFetch() {
+            for (let proxy of proxies) {
+                try {
+                    let url = proxy ? proxy + encodeURIComponent(repoJson) : repoJson;
+                    url += (url.includes('?') ? '&' : '?') + Date.now();  // جلوگیری از کش
+
+                    const r = await fetch(url);
+                    if (!r.ok) throw new Error(`Status ${r.status} با پروکسی ${proxy || 'مستقیم'}`);
+
+                    const data = await r.json();
+                    document.getElementById('status').textContent = `تعداد کانفیگ: ${data.length} (با پروکسی: ${proxy || 'مستقیم'})`;
+
+                    const ul = document.getElementById('list');
+                    ul.innerHTML = '';  // پاک کردن قبلی
+                    data.forEach(item => {
+                        const li = document.createElement('li');
+                        const type = item.link.split('://')[0].toUpperCase();
+                        li.innerHTML = `<strong>${type}</strong><br><a href="${item.link}">${item.desc || 'بدون توضیح'}</a>`;
+                        ul.appendChild(li);
+                    });
+                    return;  // موفق شد، ادامه نده
+                } catch (err) {
+                    console.log('پروکسی شکست: ' + (proxy || 'مستقیم') + ' → ' + err);
+                }
+            }
+            document.getElementById('status').textContent = 'همه پروکسی‌ها شکست خوردند – صفحه رو ذخیره کن و بعداً امتحان کن';
+        }
+
+        tryFetch();
     </script>
 </body>
 </html>
