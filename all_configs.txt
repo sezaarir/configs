@@ -538,8 +538,6 @@ vless://8f1a15bf-a352-4c32-aee2-957039a6847b@ipbaz.ping-box.com:8443?path=%2Fvpn
 --- پیام جدید ---
 trojan://m2mjd3hoa4fm@172.64.149.99:8443?path=%2F%3Fed%3D2560&security=tls&alpn=http/1.1&host=ryl6l1vowvsm7kitzzqa54d0xfz0jzcsp06pbsbkdepyr.zjde5.de5.net&fp=chrome&type=ws&sni=ryl6l1vowvsm7kitzzqa54d0xfz0jzcsp06pbsbkdepyr.zjde5.de5.net#%40V2City vless://829658bf…
 
-
-=== کانال: @ ===
-
+--- خطا در کانال @: 404 Client Error: Not Found for url: https://telegram.org/ ---
 
 === کانال: @نام_کانال_چهارم ===
