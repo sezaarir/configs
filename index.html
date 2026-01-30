@@ -3,111 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>کانفیگ‌های کانال تلگرام (کاملاً محلی)</title>
+    <title>کانفیگ‌های تلگرام - نسخه محلی (بدون نیاز به اینترنت)</title>
     <style>
-        body {font-family: system-ui; background:#111; color:#eee; padding:20px; line-height:1.6;}
-        h1 {color:#0f0; text-align:center;}
+        body {font-family: system-ui; background:#111; color:#eee; padding:20px; line-height:1.6; direction:rtl; text-align:right;}
+        h1, h2 {color:#0f0; text-align:center;}
         ul {list-style:none; padding:0;}
-        li {background:#222; margin:12px 0; padding:16px; border-radius:8px; cursor:pointer;}
-        .summary {color:#0f8; font-weight:bold;}
-        .full-desc {display:none; margin-top:10px; padding:10px; background:#333; border-radius:6px; white-space:pre-wrap; font-size:0.95em;}
-        .copy-btn {background:#0f0; color:#000; border:none; padding:8px 16px; border-radius:6px; cursor:pointer; margin-top:10px; font-weight:bold;}
+        li {background:#222; margin:15px 0; padding:18px; border-radius:10px; cursor:pointer; border:1px solid #333;}
+        .summary {color:#0f8; font-weight:bold; font-size:1.1em;}
+        .full-desc {display:none; margin-top:12px; padding:12px; background:#2a2a2a; border-radius:8px; white-space:pre-wrap; font-size:0.95em; line-height:1.5;}
+        .copy-btn {background:#0f0; color:#000; border:none; padding:10px 20px; border-radius:6px; cursor:pointer; font-weight:bold; margin-top:12px; display:block;}
         .copy-btn:hover {background:#0c0;}
-        .note {background:#444; padding:15px; border-radius:8px; margin:20px 0;}
+        .note, .download-section {background:#2a2a2a; padding:20px; border-radius:12px; margin:30px 0; border:1px solid #0f0;}
+        .download-section a {background:#0f0; color:#000; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:bold; margin:10px; display:inline-block;}
+        .download-section a.orange {background:#ff8800; color:#000;}
     </style>
 </head>
 <body>
-    <h1>کانفیگ‌های استخراج‌شده از کانال</h1>
+    <h1>کانفیگ‌های کانال تلگرام - نسخه محلی</h1>
+    
     <div class="note">
-        این صفحه محلی است و بدون اینترنت خارجی کار می‌کند.<br>
-        روی هر پیام کلیک کنید → پیام کامل باز می‌شود.<br>
-        دکمه "کپی کل پیام" → کل متن پیام (برای پیست در اپ V2rayNG/Hiddify) کپی می‌شود.<br>
-        برای به‌روز کردن: محتوای جدید configs.json را در متغیر configs جایگزین کنید.
+        <strong>نکته مهم:</strong> این صفحه کاملاً محلی است و بدون اینترنت خارجی کار می‌کند.<br>
+        در شرایط فعلی فیلترینگ/قطعی اینترنت ایران (ژانویه ۲۰۲۶)، GitHub Pages و raw.githubusercontent.com بلاک شده‌اند.<br>
+        برای استفاده: این فایل HTML را ذخیره کنید (Ctrl+S → Webpage, Complete).<br>
+        حتی آفلاین هم لینک‌های کانفیگ و دکمه کپی کار می‌کنند.
     </div>
-    <p id="status">در حال بارگذاری...</p>
+
+    <h2>کانفیگ‌ها (از پیام‌های کانال)</h2>
+    <p id="status">تعداد پیام/گروه کانفیگ: ۱ (نمونه - واقعی را جایگزین کنید)</p>
     <ul id="list"></ul>
 
+    <!-- بخش فایل‌های دانلود -->
+    <div class="download-section">
+        <h2>فایل‌های کانفیگ آماده برای دانلود</h2>
+        <p>این فایل‌ها را مستقیم دانلود کنید و در اپ ایمپورت کنید (از فایل یا Subscription).</p>
+        <div style="text-align:center;">
+            <!-- لینک‌های خودت را اینجا بگذار (اگر فایل در repo آپلود شده، raw لینک استفاده کن) -->
+            <a href="https://example.com/super-configs.txt" download>دانلود همه کانفیگ‌ها (txt)</a>
+            <a href="https://mega.nz/file/your-link-here" target="_blank" class="orange">دانلود زیپ کامل از Mega</a>
+            <a href="https://example.com/vless-configs.json" download>دانلود فقط VLESS</a>
+            <!-- لینک‌های بیشتر اضافه کن -->
+        </div>
+        <p style="font-size:0.9em; margin-top:15px;">اگر دانلود نشد: راست‌کلیک → Save link as</p>
+    </div>
+
     <script>
-        // محتوای configs.json را اینجا paste کنید (از raw کپی شده)
-        const configs = [  
-            // مثال - محتوای واقعی json را جایگزین کنید
+        // ← محتوای واقعی configs.json را اینجا paste کنید (وقتی اینترنت داشتی از raw کپی کن)
+        const configs = [
             {
                 "link": "vmess://eyJhZGQiOiIxOTIuMTY4LjEuMSIsInBvcnQiOiI0NDMiLCJpZCI6IjEyMzQtNTY3OC05MDEyLTM0NTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6InRscyIsInBzIjoiRXhhbXBsZSJ9Cg==",
-                "desc": "پیام کامل تلگرام شامل توضیحات + چند کانفیگ vmess و vless پشت سر هم\nvmess://eyJhZGQiOiIxOTIuMTY4LjEuMSIsInBvcnQiOiI0NDMiLCJpZCI6IjEyMzQtNTY3OC05MDEyLTM0NTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6InRscyIsInBzIjoiRXhhbXBsZSJ9\nvless://uuid@ip:port?security=tls&type=tcp#نام سرور"
+                "desc": "پیام نمونه از کانال\nvmess://[لینک اول]\nvless://[لینک دوم]\nتوضیحات اضافی که در پیام بود..."
             }
-            // همه آیتم‌های json را اینجا بگذارید
+            // آیتم‌های واقعی را اضافه کن (هر پیام یک آیتم)
         ];
 
-        document.getElementById('status').textContent = `تعداد پیام/گروه کانفیگ: ${configs.length} (نسخه محلی)`;
+        document.getElementById('status').textContent = `تعداد پیام/گروه کانفیگ: ${configs.length} (نسخه محلی - بدون اینترنت خارجی)`;
 
         const ul = document.getElementById('list');
         ul.innerHTML = '';
         configs.forEach((item, index) => {
             const li = document.createElement('li');
             const type = item.link.startsWith('vmess') ? 'VMess' : item.link.startsWith('vless') ? 'VLESS' : 'دیگر';
-            const fullText = item.desc;  // کل متن پیام تلگرام
+            const fullText = item.desc;
 
             li.innerHTML = `
-                <span class="summary">${type} - خلاصه: ${fullText.slice(0, 60) + (fullText.length > 60 ? '...' : '')}</span>
+                <span class="summary">${type} - خلاصه: ${fullText.slice(0, 70) + (fullText.length > 70 ? '...' : '')}</span>
                 <div class="full-desc" id="desc-${index}">${fullText.replace(/\n/g, '<br>')}</div>
-                <button class="copy-btn" onclick="copyFullMessage('${index}')">کپی کل پیام (برای پیست در اپ)</button>
+                <button class="copy-btn" onclick="copyFullMessage(${index})">کپی کل پیام (برای ایمپورت در اپ)</button>
             `;
+
             li.onclick = (e) => {
                 if (e.target.tagName !== 'BUTTON') {
-                    const desc = document.getElementById(`desc-${index}`);
-                    desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+                    const descEl = document.getElementById(`desc-${index}`);
+                    descEl.style.display = descEl.style.display === 'block' ? 'none' : 'block';
                 }
             };
+
             ul.appendChild(li);
         });
 
         function copyFullMessage(index) {
-            const fullMsg = configs[index].desc;
-            navigator.clipboard.writeText(fullMsg).then(() => {
-                alert('کل پیام کپی شد! حالا در اپ (V2rayNG/Hiddify/Nekobox) بروید به بخش Import → From Clipboard و پیست کنید.');
+            const msg = configs[index].desc;
+            navigator.clipboard.writeText(msg).then(() => {
+                alert('کل متن پیام کپی شد! در اپ V2RayNG/Hiddify/Nekobox → Import from Clipboard بزنید.');
             }).catch(() => {
-                alert('کپی نشد. متن زیر را دستی انتخاب و کپی کنید:\n\n' + fullMsg);
+                alert('کپی نشد. متن زیر را دستی کپی کنید:\n\n' + msg);
             });
         }
     </script>
-    <!-- بخش فایل‌های کانفیگ – وسط صفحه -->
-<div style="background:#2a2a2a; padding:20px; border-radius:12px; margin:30px 0; border:1px solid #0f0;">
-    <h2 style="color:#0f0; text-align:center; margin-bottom:20px;">فایل‌های کانفیگ آماده برای دانلود</h2>
-    <p style="text-align:center; color:#aaa;">این فایل‌ها رو مستقیم دانلود کنید و در اپ V2Ray/Hiddify ایمپورت کنید (Subscription یا From file).</p>
-    
-    <ul style="list-style:none; padding:0; text-align:center;">
-        <!-- لینک‌های خودت رو اینجا اضافه کن – هر کدوم یک li جدید -->
-        <li style="margin:15px 0;">
-            <a href="https://github.com/sezaarir/configs/blob/main/Premium%20Config%20%E2%9A%A1.npvt" 
-               download="super-config.txt" 
-               style="background:#0f0; color:#000; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:bold; display:inline-block;">
-               دانلود super-config (همه کانفیگ‌ها)
-            </a>
-        </li>
-        
-        <li style="margin:15px 0;">
-            <a href="https://raw.githubusercontent.com/sezaarir/configs/main/vmess-only.json" 
-               download="vmess-only.json" 
-               style="background:#0f0; color:#000; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:bold; display:inline-block;">
-               دانلود فقط VMess کانفیگ‌ها
-            </a>
-        </li>
-        
-        <li style="margin:15px 0;">
-            <a href="https://mega.nz/file/example-link" 
-               target="_blank" 
-               style="background:#ff8800; color:#000; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:bold; display:inline-block;">
-               دانلود از Mega (فایل زیپ کامل)
-            </a>
-        </li>
-        
-        <!-- لینک‌های بیشتر اضافه کن، مثلاً: -->
-        <!-- <li>...</li> -->
-    </ul>
-    
-    <p style="text-align:center; color:#aaa; margin-top:20px; font-size:0.9em;">
-        نکته: اگر دانلود نشد، روی لینک راست‌کلیک → Save link as بزن.
-    </p>
-</div>
 </body>
 </html>
