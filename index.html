@@ -3,90 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>کانفیگ‌های تلگرام - نسخه محلی (بدون نیاز به اینترنت)</title>
+    <title>کانفیگ‌های کانال - محلی و کامل</title>
     <style>
-        body {font-family: system-ui; background:#111; color:#eee; padding:20px; line-height:1.6; direction:rtl; text-align:right;}
-        h1, h2 {color:#0f0; text-align:center;}
+        body {font-family: system-ui, sans-serif; background:#0d1117; color:#c9d1d9; padding:20px; line-height:1.6; direction:rtl;}
+        h1 {color:#58a6ff; text-align:center;}
+        .note {background:#21262d; padding:15px; border-radius:8px; margin:20px 0; border:1px solid #30363d;}
         ul {list-style:none; padding:0;}
-        li {background:#222; margin:15px 0; padding:18px; border-radius:10px; cursor:pointer; border:1px solid #333;}
-        .summary {color:#0f8; font-weight:bold; font-size:1.1em;}
-        .full-desc {display:none; margin-top:12px; padding:12px; background:#2a2a2a; border-radius:8px; white-space:pre-wrap; font-size:0.95em; line-height:1.5;}
-        .copy-btn {background:#0f0; color:#000; border:none; padding:10px 20px; border-radius:6px; cursor:pointer; font-weight:bold; margin-top:12px; display:block;}
-        .copy-btn:hover {background:#0c0;}
-        .note, .download-section {background:#2a2a2a; padding:20px; border-radius:12px; margin:30px 0; border:1px solid #0f0;}
-        .download-section a {background:#0f0; color:#000; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:bold; margin:10px; display:inline-block;}
-        .download-section a.orange {background:#ff8800; color:#000;}
+        li {background:#161b22; margin:15px 0; padding:18px; border-radius:10px; border:1px solid #30363d; cursor:pointer;}
+        .summary {color:#58a6ff; font-weight:bold; font-size:1.1em;}
+        .full-desc {display:none; margin-top:12px; padding:12px; background:#0d1117; border-radius:8px; white-space:pre-wrap; font-family:monospace; font-size:0.95em; direction:ltr; text-align:left;}
+        .copy-btn {background:#238636; color:white; border:none; padding:10px 20px; border-radius:6px; cursor:pointer; font-weight:bold; margin-top:12px; display:block;}
+        .copy-btn:hover {background:#2ea043;}
     </style>
 </head>
 <body>
-    <h1>کانفیگ‌های کانال تلگرام - نسخه محلی</h1>
+    <h1>کانفیگ‌های استخراج‌شده از کانال (نسخه محلی)</h1>
     
     <div class="note">
-        <strong>نکته مهم:</strong> این صفحه کاملاً محلی است و بدون اینترنت خارجی کار می‌کند.<br>
-        در شرایط فعلی فیلترینگ/قطعی اینترنت ایران (ژانویه ۲۰۲۶)، GitHub Pages و raw.githubusercontent.com بلاک شده‌اند.<br>
-        برای استفاده: این فایل HTML را ذخیره کنید (Ctrl+S → Webpage, Complete).<br>
-        حتی آفلاین هم لینک‌های کانفیگ و دکمه کپی کار می‌کنند.
+        <strong>وضعیت فعلی:</strong> اینترنت ایران قطع/فیلتر شدید است (ژانویه ۲۰۲۶)، GitHub Pages بدون ابزار بالا نمی‌آید.<br>
+        این صفحه محلی است: داده داخل کد است → آفلاین هم کار می‌کند.<br>
+        برای به‌روز کردن: وقتی اینترنت داشتی، configs.json رو باز کن، آرایه رو کپی کن، داخل const configs بگذار و commit بزن.
     </div>
 
-    <h2>کانفیگ‌ها (از پیام‌های کانال)</h2>
-    <p id="status">تعداد پیام/گروه کانفیگ: ۱ (نمونه - واقعی را جایگزین کنید)</p>
+    <p id="status">در حال بارگذاری...</p>
     <ul id="list"></ul>
 
-    <!-- بخش فایل‌های دانلود -->
-    <div class="download-section">
-        <h2>فایل‌های کانفیگ آماده برای دانلود</h2>
-        <p>این فایل‌ها را مستقیم دانلود کنید و در اپ ایمپورت کنید (از فایل یا Subscription).</p>
-        <div style="text-align:center;">
-            <!-- لینک‌های خودت را اینجا بگذار (اگر فایل در repo آپلود شده، raw لینک استفاده کن) -->
-            <a href="https://example.com/super-configs.txt" download>دانلود همه کانفیگ‌ها (txt)</a>
-            <a href="https://mega.nz/file/your-link-here" target="_blank" class="orange">دانلود زیپ کامل از Mega</a>
-            <a href="https://example.com/vless-configs.json" download>دانلود فقط VLESS</a>
-            <!-- لینک‌های بیشتر اضافه کن -->
-        </div>
-        <p style="font-size:0.9em; margin-top:15px;">اگر دانلود نشد: راست‌کلیک → Save link as</p>
-    </div>
-
     <script>
-        // ← محتوای واقعی configs.json را اینجا paste کنید (وقتی اینترنت داشتی از raw کپی کن)
+        // محتوای configs.json را اینجا paste کنید (آرایه کامل از raw)
+        // desc کامل است (نه کوتاه‌شده)، شامل همه متن پیام + همه لینک‌ها
         const configs = [
+            // نمونه واقعی - جایگزین کن با محتوای json واقعی
             {
-                "link": "vmess://eyJhZGQiOiIxOTIuMTY4LjEuMSIsInBvcnQiOiI0NDMiLCJpZCI6IjEyMzQtNTY3OC05MDEyLTM0NTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6InRscyIsInBzIjoiRXhhbXBsZSJ9Cg==",
-                "desc": "پیام نمونه از کانال\nvmess://[لینک اول]\nvless://[لینک دوم]\nتوضیحات اضافی که در پیام بود..."
+                "desc": "🚒 Servers For V2rayNg & NapsternetV App. 🔻 با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.\nvless://4525c26f-... (لینک کامل اول)\nvmess://eyJhZGQiOi... (لینک کامل دوم)\nvless://... (سوم)\n... و بقیه کانفیگ‌ها تا انتهای پیام",
+                "link": ""  // لینک اصلی لازم نیست، چون desc همه چیز رو داره
+            },
+            // آیتم بعدی پیام (هر پیام کانال یک آیتم شود)
+            {
+                "desc": "پیام دوم کانال با کانفیگ‌های جدید...\nvless://... \nتوضیحات کامل پیام اینجا می‌آید بدون کوتاه شدن",
+                "link": ""
             }
-            // آیتم‌های واقعی را اضافه کن (هر پیام یک آیتم)
+            // همه پیام‌های دارای کانفیگ رو اینجا بگذار
         ];
 
-        document.getElementById('status').textContent = `تعداد پیام/گروه کانفیگ: ${configs.length} (نسخه محلی - بدون اینترنت خارجی)`;
+        document.getElementById('status').textContent = `تعداد پیام‌های کانفیگ‌دار: ${configs.length} (محلی - بدون fetch خارجی)`;
 
         const ul = document.getElementById('list');
         ul.innerHTML = '';
         configs.forEach((item, index) => {
             const li = document.createElement('li');
-            const type = item.link.startsWith('vmess') ? 'VMess' : item.link.startsWith('vless') ? 'VLESS' : 'دیگر';
-            const fullText = item.desc;
-
+            const preview = item.desc.slice(0, 100) + (item.desc.length > 100 ? '...' : '');
             li.innerHTML = `
-                <span class="summary">${type} - خلاصه: ${fullText.slice(0, 70) + (fullText.length > 70 ? '...' : '')}</span>
-                <div class="full-desc" id="desc-${index}">${fullText.replace(/\n/g, '<br>')}</div>
-                <button class="copy-btn" onclick="copyFullMessage(${index})">کپی کل پیام (برای ایمپورت در اپ)</button>
+                <span class="summary">پیام ${index + 1} - خلاصه: ${preview}</span>
+                <div class="full-desc" id="desc-${index}">${item.desc.replace(/\n/g, '<br>')}</div>
+                <button class="copy-btn" onclick="copyMessage(${index})">کپی کل پیام (برای ایمپورت در اپ)</button>
             `;
-
             li.onclick = (e) => {
                 if (e.target.tagName !== 'BUTTON') {
                     const descEl = document.getElementById(`desc-${index}`);
                     descEl.style.display = descEl.style.display === 'block' ? 'none' : 'block';
                 }
             };
-
             ul.appendChild(li);
         });
 
-        function copyFullMessage(index) {
-            const msg = configs[index].desc;
-            navigator.clipboard.writeText(msg).then(() => {
-                alert('کل متن پیام کپی شد! در اپ V2RayNG/Hiddify/Nekobox → Import from Clipboard بزنید.');
+        function copyMessage(index) {
+            const text = configs[index].desc;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('کل پیام کپی شد! در اپ V2RayNG یا Hiddify → Import from Clipboard بزنید. (اگر چند کانفیگ باشد، همه تشخیص داده می‌شوند)');
             }).catch(() => {
-                alert('کپی نشد. متن زیر را دستی کپی کنید:\n\n' + msg);
+                alert('کپی نشد. متن زیر را دستی کپی کنید:\n\n' + text);
             });
         }
     </script>
