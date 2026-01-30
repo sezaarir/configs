@@ -2,29 +2,32 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-CHANNEL = 'نام_کانالت_بدون_@'  # مثلاً 'prrofile_purple' یا هر کانال
+CHANNEL = 'prrofile_purple'  # بدون @ بگذار
 
 url = f'https://t.me/s/{CHANNEL}'
-headers = {'User-Agent': 'Mozilla/5.0'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 try:
     response = requests.get(url, headers=headers, timeout=15)
     soup = BeautifulSoup(response.text, 'html.parser')
 
     messages = soup.find_all('div', class_='tgme_widget_message_text')
-    output_lines = []
+    lines = []
 
     for msg in messages:
         text = msg.get_text(separator='\n', strip=True)
-        if re.search(r'(vmess|vless|trojan|ss)://', text):
-            output_lines.append("--- پیام جدید ---")
-            output_lines.append(text)
-            output_lines.append("")  # خط خالی برای جداسازی
+        links = re.findall(r'(vmess|vless|trojan|ss)://[^\s<"]+', text)
+        if links:
+            lines.append(f"پیام جدید:")
+            lines.append(text[:200] + '...' if len(text) > 200 else text)  # کوتاه برای حجم کم
+            for link in links:
+                lines.append(link)
+            lines.append("---")
 
     with open('all_configs.txt', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(output_lines))
+        f.write('\n'.join(lines))
 
-    print(f"نوشته شد: {len(output_lines)} خط")
+    print(f"نوشته شد: {len(lines)} خط")
 
 except Exception as e:
     print(f"خطا: {e}")
