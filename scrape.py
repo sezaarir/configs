@@ -2,32 +2,37 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-CHANNEL = 'prrofile_purple'  # بدون @ بگذار
+# نام کانال رو اینجا بگذار (بدون @)
+CHANNEL = 'نام_کانالت'  # مثلاً V2rayCollector یا هر کانالی که داری
 
 url = f'https://t.me/s/{CHANNEL}'
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
 
 try:
-    response = requests.get(url, headers=headers, timeout=15)
+    response = requests.get(url, headers=headers, timeout=20)
+    response.raise_for_status()  # اگر خطا بود، raise کن
     soup = BeautifulSoup(response.text, 'html.parser')
 
     messages = soup.find_all('div', class_='tgme_widget_message_text')
-    lines = []
+    output_lines = []
 
     for msg in messages:
         text = msg.get_text(separator='\n', strip=True)
-        links = re.findall(r'(vmess|vless|trojan|ss)://[^\s<"]+', text)
-        if links:
-            lines.append(f"پیام جدید:")
-            lines.append(text[:200] + '...' if len(text) > 200 else text)  # کوتاه برای حجم کم
-            for link in links:
-                lines.append(link)
-            lines.append("---")
+        # اگر حداقل یک لینک کانفیگ داشت
+        if re.search(r'(vmess|vless|trojan|ss)://', text):
+            # متن کامل پیام رو اضافه کن (بدون کوتاه کردن)
+            output_lines.append("--- پیام جدید ---")
+            output_lines.append(text)
+            output_lines.append("")  # خط خالی برای جداسازی بهتر
 
-    with open('all_configs.txt', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
-
-    print(f"نوشته شد: {len(lines)} خط")
+    if output_lines:
+        with open('all_configs.txt', 'w', encoding='utf-8') as f:
+            f.write('\n'.join(output_lines))
+        print(f"نوشته شد: {len(output_lines)} خط - کانفیگ‌ها کامل ذخیره شدند")
+    else:
+        print("هیچ کانفیگی پیدا نشد")
 
 except Exception as e:
-    print(f"خطا: {e}")
+    print(f"خطا در scrape: {str(e)}")
