@@ -2,7 +2,7 @@ name: Update Configs TXT
 
 on:
   schedule:
-    - cron: '*/10 * * * *'   # هر ۵ دقیقه
+    - cron: '*/1 * * * *'   # هر ۵ دقیقه
   workflow_dispatch:       # دستی هم می‌تونی اجرا کنی
 
 jobs:
