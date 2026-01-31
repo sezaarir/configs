@@ -438,6 +438,13 @@ vless://ea50eba3-2cdd-4979-bca3-1f3aae58028a@185.154.194.217:13094?mode=auto&pat
 #نشردهید
 @prrofile_purple
 
+--- پیام جدید ---
+vless://fee46422-f463-4e67-a9ab-43b2d5daba7f@172.67.131.150:2053?security=tls&encryption=none&insecure=1&host=tst3.viwo.online&fp=chrome&type=ws&allowInsecure=1&sni=tst3.viwo.online#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+⚠️
+عملکرد سرورها روی هر اپراتور متفاوت است در صورت قطعی از سرورهای دیگر کانال استفاده کنید.
+#نشردهید
+@prrofile_purple
+
 
 === کانال: @v2city ===
 
