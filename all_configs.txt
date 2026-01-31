@@ -599,4 +599,5 @@ trojan://bpb-trojan@94.140.0.1:443?path=%2Ftr%3Fed%3D2560&security=tls&host=sing
 
 === کانال: @ ===
 
---- خطا در کانال @نام_کانال_چهارم: HTTPSConnectionPool(host='t.me', port=443): Read timed out. (read timeout=20) ---
+
+=== کانال: @نام_کانال_چهارم ===
