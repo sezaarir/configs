@@ -410,6 +410,35 @@ vless://f09dd92e-d441-4139-b1e4-a291463d9935@2sudo.winapp3.ir:443?path=%2F&secur
 #نشردهید
 @prrofile_purple
 
+--- پیام جدید ---
+🚒
+Servers For
+V2rayNg
+&
+NapsternetV
+App.
+🔻
+با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
+vless://ca569d6c-d206-4709-9ed9-8dda73932c22@144.31.2.86:443?security=reality&encryption=none&pbk=PuHKrJNt4shNVTNZ_leD7SmOI0QhxJ9SVnkV70i1xho&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=cbdfef7f3ede2072#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🧧
+vless://8736dfd0-2020-4dde-956c-6a3e8f1b3c39@81.12.33.170:1003?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🪭
+vless://3dc86e4c-331f-4d8e-8408-d035d51f877c@146.75.65.194:443?path=%2Fcontainers%2Ffi&security=tls&alpn=http%2F1.1&encryption=none&insecure=1&host=mitivpndozd.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=1&sni=mitivpndozd.global.ssl.fastly.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🏮
+vless://a9bac46a-2037-4ad1-a192-08c70927f4ad@faqatchai.global.ssl.fastly.net:443?path=%2Fcontainers%2Ffi&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=faqatchai.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=faqatchai.global.ssl.fastly.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🎎
+vless://8736dfd0-2020-4dde-956c-6a3e8f1b3c39@81.12.33.163:10010?path=%2F&security=none&encryption=none&host=myket.ir&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🎊
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0M2ZYZjF1TUtiSUtreG9OWUdRTXR0@38.244.137.202:45380#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🎏
+vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@convera.com:2053?path=%2Fdanfeng&security=tls&encryption=none&insecure=0&host=snippet.danfeng.de5.net&fp=chrome&type=ws&allowInsecure=0&sni=snippet.danfeng.de5.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🛍
+vless://d89d6641-3b1a-4f51-a194-9c9109fd21b6@creativecommons.org:443?path=%2Fassets&security=tls&encryption=none&insecure=1&host=diprox.pages.dev&type=ws&allowInsecure=1&sni=DiprOX.pages.DEV#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+⚠️
+عملکرد سرورها روی هر اپراتور متفاوت است در صورت قطعی از سرورهای دیگر کانال استفاده کنید.
+#نشردهید
+@prrofile_purple
+
 
 === کانال: @v2city ===
 
@@ -586,4 +615,5 @@ trojan://bpb-trojan@94.140.0.1:443?path=%2Ftr%3Fed%3D2560&security=tls&host=sing
 
 === کانال: @iproxy ===
 
---- خطا در کانال @نام_کانال_چهارم: 404 Client Error: Not Found for url: https://telegram.org/ ---
+
+=== کانال: @نام_کانال_چهارم ===
