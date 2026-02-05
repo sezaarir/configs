@@ -10,35 +10,6 @@ NapsternetV
 App.
 🔻
 با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
-vless://ca569d6c-d206-4709-9ed9-8dda73932c22@144.31.2.86:443?security=reality&encryption=none&pbk=PuHKrJNt4shNVTNZ_leD7SmOI0QhxJ9SVnkV70i1xho&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=cbdfef7f3ede2072#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧧
-vless://8736dfd0-2020-4dde-956c-6a3e8f1b3c39@81.12.33.170:1003?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🪭
-vless://3dc86e4c-331f-4d8e-8408-d035d51f877c@146.75.65.194:443?path=%2Fcontainers%2Ffi&security=tls&alpn=http%2F1.1&encryption=none&insecure=1&host=mitivpndozd.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=1&sni=mitivpndozd.global.ssl.fastly.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🏮
-vless://a9bac46a-2037-4ad1-a192-08c70927f4ad@faqatchai.global.ssl.fastly.net:443?path=%2Fcontainers%2Ffi&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=faqatchai.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=faqatchai.global.ssl.fastly.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🎎
-vless://8736dfd0-2020-4dde-956c-6a3e8f1b3c39@81.12.33.163:10010?path=%2F&security=none&encryption=none&host=myket.ir&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🎊
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0M2ZYZjF1TUtiSUtreG9OWUdRTXR0@38.244.137.202:45380#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🎏
-vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@convera.com:2053?path=%2Fdanfeng&security=tls&encryption=none&insecure=0&host=snippet.danfeng.de5.net&fp=chrome&type=ws&allowInsecure=0&sni=snippet.danfeng.de5.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🛍
-vless://d89d6641-3b1a-4f51-a194-9c9109fd21b6@creativecommons.org:443?path=%2Fassets&security=tls&encryption=none&insecure=1&host=diprox.pages.dev&type=ws&allowInsecure=1&sni=DiprOX.pages.DEV#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-⚠️
-عملکرد سرورها روی هر اپراتور متفاوت است در صورت قطعی از سرورهای دیگر کانال استفاده کنید.
-#نشردهید
-@prrofile_purple
-
---- پیام جدید ---
-🚒
-Servers For
-V2rayNg
-&
-NapsternetV
-App.
-🔻
-با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
 vless://ec19f26f-b638-4883-bfab-c5a67fadd8ed@2app.star-direct.ir:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=ghhyteagfinljtrssj3gjiydcbkppoyreq34678072.mrpixanos.ir&fp=chrome&type=ws&allowInsecure=0&sni=ghhyteagfinljtrssj3gjiydcbkppoyreq34678072.mrpixanos.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 🩶
 vless://612fa38e-dbf2-491c-9417-a4187c25bda2@ip4-fas.tyryqyserver.ir:80?path=%2F%3Fed%3D2052&security=none&encryption=none&host=tamamde1.global.ssl.fastly.net&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
@@ -366,6 +337,38 @@ vless://cfd61569-b43e-4dd7-9bf0-c30db60049e4@f2.springpaatogh8.store:2083?path=%
 vless://36213657-e751-478b-a5d7-547eef892af9@kirinet.global.ssl.fastly.net:443?path=%2Fcontainers%2Ffi&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=kirinet.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=kirinet.global.ssl.fastly.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 🐙
 vless://792ad70e-d173-4bf7-be4b-f74285cd8968@ip4.gptban.com:80?mode=auto&path=%2FGaMeOpTiMiZeR%3Fed%3D2048&security=none&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%20%221000000%22%2C%20%22scMaxConcurrentPosts%22%3A%20100%2C%20%22scMinPostsIntervalMs%22%3A%2030%2C%20%22xPaddingBytes%22%3A%20%22100-1000%22%2C%20%22noGRPCHeader%22%3A%20false%7D&host=Panellosiris.global.ssl.fastly.net&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+⚠️
+عملکرد سرورها روی هر اپراتور متفاوت است در صورت قطعی از سرورهای دیگر کانال استفاده کنید.
+#نشردهید
+@prrofile_purple
+
+--- پیام جدید ---
+vless://f0af25ad-98f2-484a-b380-aa2ee3b6ffdc@Fans.mahoshid.ir:9560?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🪶
+vless://2d25da30-8982-49dc-bfed-f121be6f7762@SpEeDtEsT.NeT:80?mode=auto&path=%2FHajAmirVip%3F%3D2048&security=none&encryption=none&host=fasthetz.global.ssl.fastly.net&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+⚠️
+عملکرد سرورها روی هر اپراتور متفاوت است در صورت قطعی از سرورهای دیگر کانال استفاده کنید.
+#نشردهید
+@prrofile_purple
+
+--- پیام جدید ---
+🚒
+Servers For
+V2rayNg
+&
+NapsternetV
+App.
+🔻
+با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
+vless://e9d6b936-5164-40a0-9279-4b588ae1e29a@tamam-1.conf-tun.site:44441?security=none&encryption=none&host=zarebin.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🌴
+vless://6d6f1c65-3102-4955-b872-197bab3b24cb@f2.springpaatogh8.store:2083?path=%2F%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=chess.sorza.ir&fp=chrome&type=ws&allowInsecure=0&sni=chess.sorza.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🍀
+vmess://eyJhZGQiOiJzMi5hYnRpbnBob25lLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiYm13LmNvbSIsImlkIjoiNDdlMDlhOWYtNDkwOS00ZTJiLThjNWMtYTM3ZTViM2QyNmUzIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiNTczOTIiLCJwcyI6IuKaoVRlbGVncmFtIFx1MDAzZCBAcHJyb2ZpbGVfcHVycGxlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==
+🎄
+vless://2547fcff-03a0-453d-bc20-acd66ef75611@fans2.mahoshid.ir:9560?security=none&encryption=none&host=varzesh3.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🌵
+vmess://eyJhZGQiOiI6OmZmZmY6YWM0MDo5YmQxIiwiYWlkIjoiMCIsImFscG4iOiJoMiIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJpZCI6ImZmZWNlMmE5LTAyOTYtNDZhOS04ZGI4LTc0MmQyOWQyNDBmZiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IklTd3BZVlI4U2p4WGNVWkVVelZmTlVSVFVDOGxWMjlEWFNnc0tIMVNOMGcxSlZwREhVMWNXaWdLQUM4UVJsdE1DaTg2QUJ3NEpWMTRIVk1uIiwicG9ydCI6IjQ0MyIsInBzIjoi4pqhVGVsZWdyYW0gXHUwMDNkIEBwcnJvZmlsZV9wdXJwbGUiLCJzY3kiOiJhdXRvIiwic25pIjoiYmVkcmlkLmRlbml6aG9zdGluZy5tZSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 ⚠️
 عملکرد سرورها روی هر اپراتور متفاوت است در صورت قطعی از سرورهای دیگر کانال استفاده کنید.
 #نشردهید
