@@ -357,7 +357,8 @@ vless://7bf33271-8846-4189-badf-4f246e44fc5b@217.26.222.46:443?security=reality&
 🍔
 vless://081b4532-255d-4481-9484-b75ceab21b0d@Pinterest.com:80?path=%2Fcontainers%2Ffi&security=none&encryption=none&host=dojman.global.ssl.fastly.net&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ☑️
-دوستان کانفیگ و سرور هارو برا دوستانتون شیر کنید تا همه متصل بشن
+لطفاً کانفیگ و سرور هارو برا
+دوستان خودهم ارسال کنید تا همه متصل بشن
 💚
 #نشردهید
 @prrofile_purple
