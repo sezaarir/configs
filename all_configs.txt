@@ -424,6 +424,35 @@ vless://5470fc8f-ec3a-4e43-88df-ecc3a1a898f4@nova2.abzarsanat.sbs:12666?security
 #نشردهید
 @prrofile_purple
 
+--- پیام جدید ---
+🚒
+Servers For
+V2rayNg
+&
+NapsternetV
+App.
+🔻
+با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
+vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@172.67.180.92:443?path=%2F--Telegram---%40MiTiVPN%2F---%40MiTiVPN%2F---MiTiVPN%2F---%40MiTiVPN&security=tls&encryption=none&insecure=0&host=cdn.abcallcenter.com&fp=chrome&type=ws&allowInsecure=0&sni=cdn.abcallcenter.com#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+👾
+vless://848db999-f153-4540-8dcb-0dd69cdf2440@tg1.basevip3.best:2582?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+👽
+vless://508209de-ac9e-437d-b230-569ab55388da@45.146.201.166:2083?mode=auto&path=%2Fapi%2Fstream&security=tls&alpn=h2&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%201000000%2C%20%22scMaxConcurrentPosts%22%3A%20100%2C%20%22scMinPostsIntervalMs%22%3A%2030%2C%20%22xPaddingBytes%22%3A%20%2210-20%22%2C%20%22noGRPCHeader%22%3A%20false%7D&insecure=0&host=4dacf4d7df4b7a24.bsazbfrosh.site&fp=chrome&type=xhttp&allowInsecure=0&sni=4dacf4d7df4b7a24.bsazbfrosh.site#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+☠
+vless://508209de-ac9e-437d-b230-569ab55388da@mcnew.dl101movis.ir:80?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%201000000%2C%20%22scMaxConcurrentPosts%22%3A%20100%2C%20%22scMinPostsIntervalMs%22%3A%2030%2C%20%22xPaddingBytes%22%3A%20%220%22%2C%20%22noGRPCHeader%22%3A%20false%7D&host=speedyfastytuderysmothi.global.ssl.fastly.net&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+💀
+vless://21825049-840a-4299-84d7-01efe42bccff@fmsh4.movementvip.ir:19656?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+👻
+vless://1c886572-7bc1-4051-b4c5-534db1287a45@151.101.99.161:80?mode=auto&path=%2FewaroopDWDWDdowOWDwOerio3orfo3ooFOWOFOFWOWfWFIjWWwow&security=none&encryption=none&host=m2shbosl.global.ssl.fastly.net&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🤡
+vmess://eyJhZGQiOiJjaGF0Z3B0LmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJ6Lmxvb2xvb2xvb2xvby5jb20iLCJpZCI6ImM1MzZjZWY1LTA0MjEtNDAyMS1hMmNmLTI5ZTM3NTlhNzQ2MyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii93cy1zaXRlP2VkXHUwMDNkMjA1NiIsInBvcnQiOiI0NDMiLCJwcyI6IuKaoVRlbGVncmFtIFx1MDAzZCBAcHJyb2ZpbGVfcHVycGxlIiwic2N5IjoiYXV0byIsInNuaSI6InoubG9vbG9vbG9vbG9vLmNvbSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+☑️
+لطفاً کانفیگ و سرور هارو برا
+دوستان خودهم ارسال کنید تا همه متصل بشن
+💚
+#نشردهید
+@prrofile_purple
+
 
 === کانال: @v2city ===
 
