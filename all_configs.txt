@@ -10,35 +10,6 @@ NapsternetV
 App.
 🔻
 با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
-socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@lu-lux.pvdata.host:1080#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🥸
-vmess://eyJhZGQiOiJwYW5lbDcxMy5jb2xzdnBuLnRvcCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiVGVsZXdlYmlvbi5jb20iLCJpZCI6IjE1ZWIwOGJhLWY2YzEtNGM0NC04MDI0LWM3MmRjMzZhMzFhMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjI5MTY4IiwicHMiOiLimqFUZWxlZ3JhbSBcdTAwM2QgQHBycm9maWxlX3B1cnBsZSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
-🥳
-vless://392ca09f-3285-4266-9544-14195f0227fa@FASTLY1.FASTSPEEDS.IR:80?mode=auto&path=%2F&security=none&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=5SvNlet-iT-haPpEn-KhaFeSho-Sd.gLoBal.Ssl.FaStLy.nEt.&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🤪
-socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@pl-tor.pvdata.host:1080#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-💋
-vless://4cf2e843-31b1-4ad7-ae33-0d092e12d396@srv99.radargame.site:41128?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-😍
-vless://e250d63d-5125-42de-98ce-0bfa85c38eed@140.248.158.132:80?mode=auto&path=%2F&security=none&encryption=none&host=barcodevpn.global.ssl.fastly.net&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-😘
-vless://3346a390-5b6f-49f2-94aa-46d2ad68ccc0@cx4.prodatabase.ir:1500?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-☑️
-لطفاً کانفیگ وسرور هارو برا
-دوستان خودهم ارسال کنید تا همه متصل بشن
-💚
-#نشردهید
-@prrofile_purple
-
---- پیام جدید ---
-🚒
-Servers For
-V2rayNg
-&
-NapsternetV
-App.
-🔻
-با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
 vless://f8d3b3c4-678d-4a23-a4de-f8613a310a44@78.110.123.32:2095?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 🤖
 socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@pl-tor.pvdata.host:1080#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
@@ -575,6 +546,37 @@ vless://de541d61-6b3f-437f-8429-bbf3f672f885@cd.reata.ir:2053?security=tls&alpn=
 vless://0525f54a-568b-4f0b-89e5-c2666e800d83@188.114.99.160:8443?path=%2Fdownloader&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=matoride.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=matoride.adaspoloandco.com#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 🥇
 vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@45.130.125.160:2052?mode=auto&path=%2Fpabloping&security=none&encryption=none&host=nlbv2.pabloping.pro&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+☑️
+لطفاً کانفیگ وسرور هارو برا
+دوستان خودهم ارسال کنید تا همه متصل بشن
+💚
+#نشردهید
+@prrofile_purple
+
+--- پیام جدید ---
+🚒
+Servers For
+V2rayNg
+&
+NapsternetV
+App.
+🔻
+با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
+hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚐
+vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=0&host=p1.thisiswe.uno&fp=chrome&type=ws&allowInsecure=0&sni=p1.thisiswe.uno#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚒
+vless://cfa44910-d8e0-4469-8e0c-88a9f5e96e6b@193.84.255.103:7071?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚑
+vless://cfa44910-d8e0-4469-8e0c-88a9f5e96e6b@my.kiomars.shop:6665?security=reality&encryption=none&pbk=RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=c3b6ed4da7a983c7#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚓
+vless://0525f54a-568b-4f0b-89e5-c2666e800d83@188.114.99.160:8443?path=%2Fdownloader&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=matoride.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=matoride.adaspoloandco.com#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚙
+vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@srvfree.iranai.space:41314?security=none&encryption=none&host=%2F---V2RRVIP&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚕
+vless://cfa44910-d8e0-4469-8e0c-88a9f5e96e6b@my.kiomars.shop:6664?security=reality&encryption=none&pbk=RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=c3b6ed4da7a983c7#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🚗
+vless://cfa44910-d8e0-4469-8e0c-88a9f5e96e6b@45.84.157.54:5050?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ☑️
 لطفاً کانفیگ وسرور هارو برا
 دوستان خودهم ارسال کنید تا همه متصل بشن
