@@ -10,37 +10,6 @@ NapsternetV
 App.
 🔻
 با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
-vless://3432abbc-85da-42fe-8997-4d9041d4c923@cxp2.azangooo.ir:2053?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=cpt1.digitstocks.ir&fp=android&type=ws&allowInsecure=0&sni=MS_sw85fc23d5fadd819f-sfX.digitstocks.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-👸
-vless://3432abbc-85da-42fe-8997-4d9041d4c923@cxp3.azangooo.ir:2053?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=cpt1.digitstocks.ir&fp=android&type=ws&allowInsecure=0&sni=MS_sw11f5d93871157b51-sfX.digitstocks.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧛‍♂
-vless://3432abbc-85da-42fe-8997-4d9041d4c923@my.kiomars.shop:6664?security=reality&encryption=none&pbk=RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=c3b6ed4da7a983c7#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧛
-vless://d0a88160-6f61-4fb9-bf2f-9a763e1031c8@3.66.89.255:30449?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧛‍♀
-vless://3432abbc-85da-42fe-8997-4d9041d4c923@45.131.108.191:8443?security=reality&encryption=none&pbk=RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=c3b6ed4da7a983c7#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧝‍♂
-vless://3432abbc-85da-42fe-8997-4d9041d4c923@cxp1.azangooo.ir:2053?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=cpt1.digitstocks.ir&fp=android&type=ws&allowInsecure=0&sni=MS_sw8f03be9884eec2ef-sfX.digitstocks.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧝
-socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@ee-tal.pvdata.host:1080#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧝‍♀
-vless://3432abbc-85da-42fe-8997-4d9041d4c923@itly1.azangooo.ir:443?mode=packet-up&path=%2Ffsxh&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D&insecure=0&host=mawxich.global.ssl.fastly.net&type=xhttp&allowInsecure=0&sni=default.ssl.fastly.net#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-☑️
-لطفاً کانفیگ وسرور هارو برا
-دوستان خودهم ارسال کنید تا همه متصل بشن
-💚
-#نشردهید
-@prrofile_purple
-
---- پیام جدید ---
-🚒
-Servers For
-V2rayNg
-&
-NapsternetV
-App.
-🔻
-با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.101.120.0:443?path=%2Fsni.111000.dynv6.net%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=divine-term-f5b2.olav95.workers.dev&type=ws&allowInsecure=0&sni=divine-term-f5b2.olav95.workers.dev#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 👛
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.18.110.121:443?path=%2Fsni.111000.dynv6.net%2F%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=nameless-violet-d45c.anthony900.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nameless-violet-d45c.anthony900.workers.dev#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
