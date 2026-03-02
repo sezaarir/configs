@@ -10,37 +10,6 @@ NapsternetV
 App.
 🔻
 با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
-vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@45.130.125.198:2053?path=%2F&security=tls&encryption=none&insecure=1&host=kaja.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=kaja.thisiswe.uno#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🪙
-vless://e0ff845c-92d7-4f9b-81f5-53bf9625aac4@193.84.255.103:7071?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-💎
-vless://e0ff845c-92d7-4f9b-81f5-53bf9625aac4@my.kiomars.shop:6664?security=reality&encryption=none&pbk=RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=c3b6ed4da7a983c7#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🪪
-vless://e0ff845c-92d7-4f9b-81f5-53bf9625aac4@my.kiomars.shop:6665?security=reality&encryption=none&pbk=RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=c3b6ed4da7a983c7#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-💳
-vless://e0ff845c-92d7-4f9b-81f5-53bf9625aac4@217.60.238.167:8084?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-💰
-vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=0&host=p1.thisiswe.uno&fp=chrome&type=ws&allowInsecure=0&sni=p1.thisiswe.uno#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-💵
-vless://e0ff845c-92d7-4f9b-81f5-53bf9625aac4@217.60.238.167:8083?security=none&encryption=none&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-💸
-vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@94.183.171.3:41314?security=none&encryption=none&host=bmw.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-☑️
-لطفاً کانفیگ وسرور هارو برا
-دوستان خودهم ارسال کنید تا همه متصل بشن
-💚
-#نشردهید
-@prrofile_purple
-
---- پیام جدید ---
-🚒
-Servers For
-V2rayNg
-&
-NapsternetV
-App.
-🔻
-با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
 vless://7553f8fe-2b75-4864-8717-00634a9e2e27@maxb08.ava-shop.ir:2096?security=reality&encryption=none&pbk=K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=42c0b628ba6a42a9#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 🧿
 vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=0&host=p1.thisiswe.uno&fp=chrome&type=ws&allowInsecure=0&sni=p1.thisiswe.uno#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
@@ -407,6 +376,21 @@ vless://53e3ad33-7ca3-0393-f8db-3c56cca64686@t7p9a.uk.modern-surge.com:8884?mode
 
 --- پیام جدید ---
 vless://31bdae38-ab95-499a-8105-2fe7c45a8240@hub1.wiziii.xyz:8085?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+☑️
+لطفاً کانفیگ وسرور هارو برای
+دوستان خودهم ارسال کنید تا استفاده کنند
+💚
+#نشردهید
+@prrofile_purple
+
+--- پیام جدید ---
+vless://44de73bc-eb6d-429d-9c2f-ec0a6e4a6681@my.configfast.site:4013?security=none&encryption=none&host=bale.ai%2Cweb.splus.ir%2Cigap.net&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🦊
+vless://ab0d9568-1ad3-4af5-961c-d10ca9a634ad@185.231.113.237:7474?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🐱
+vless://2fb9335d-6a89-4eed-8246-0d5076fd556e@vip-meli2.nightgemshop.com:443?security=none&encryption=none&host=alef.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
+🐶
+vless://092e5bb7-bbe3-44da-a46d-0bea017a9c14@srv2-germany.hajimamadcloud.com.tr:1992?security=none&encryption=none&host=skyroom.online%2Cigap.net%2Cgharar.ir&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ☑️
 لطفاً کانفیگ وسرور هارو برای
 دوستان خودهم ارسال کنید تا استفاده کنند
