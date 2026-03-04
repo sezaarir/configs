@@ -2,29 +2,6 @@
 === کانال: @prrofile_purple ===
 
 --- پیام جدید ---
-🚒
-Servers For
-V2rayNg
-&
-NapsternetV
-App.
-🔻
-با یک ضربه روی سرور کپی میشود ، سپس سرور را وارد و متصل شوید.
-vless://53e3ad33-7ca3-0393-f8db-3c56cca64686@dis1x.uae.neural-portal.com:8887?mode=auto&path=%2F&security=none&encryption=none&host=gbaz.ir&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🪱
-vless://53e3ad33-7ca3-0393-f8db-3c56cca64686@caxp8.ru.neural-portal.com:8886?mode=auto&path=%2F&security=none&encryption=none&host=gbaz.ir&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🐝
-vless://53e3ad33-7ca3-0393-f8db-3c56cca64686@jx1z5.de1.ion-quantum.com:8881?mode=auto&path=%2F&security=none&encryption=none&host=gbaz.ir&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🦄
-vless://53e3ad33-7ca3-0393-f8db-3c56cca64686@t7p9a.uk.modern-surge.com:8884?mode=auto&path=%2F&security=none&encryption=none&host=gbaz.ir&type=xhttp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-☑️
-لطفاً کانفیگ وسرور هارو برای
-دوستان خودهم ارسال کنید تا استفاده کنند
-💚
-#نشردهید
-@prrofile_purple
-
---- پیام جدید ---
 vless://31bdae38-ab95-499a-8105-2fe7c45a8240@hub1.wiziii.xyz:8085?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ☑️
 لطفاً کانفیگ وسرور هارو برای
@@ -235,6 +212,19 @@ vless://e0883a94-89bb-46f1-9bcc-23c6c5fa9bdf@node.zorli.ir:8443?security=none&en
 
 --- پیام جدید ---
 vless://d203ceae-d9a9-45bb-a07c-0eb52baf9130@78.157.37.186:2099?mode=gun&security=none&encryption=none&type=grpc&serviceName=vless#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+☑️
+لطفاً کانفیگ وسرور هارو برای
+دوستان خودهم ارسال کنید تا استفاده کنند
+💚
+#نشردهید
+@prrofile_purple
+
+--- پیام جدید ---
+vless://91f8b4d5-b9eb-4740-b560-df710cc3c5e2@pl1.heliyadak.ir:3228?security=none&encryption=none&type=ws#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+🍊
+vless://7e1d32bf-741f-30f3-1b0c-0452b695c07f@srv-c0.netmaster.cam:8008?security=none&encryption=none&type=ws&sni=1#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+🍏
+vless://80662112-2307-4b95-9837-b3d1cc6c0dd2@de-2-tun.healingfluence.org:8081?security=none&encryption=none&host=cafebazaar.ir&headerType=http&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
 ☑️
 لطفاً کانفیگ وسرور هارو برای
 دوستان خودهم ارسال کنید تا استفاده کنند
