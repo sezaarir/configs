@@ -290,6 +290,23 @@ vless://6ff581e0-4622-4af2-9b57-37dbcd6dee1e@fs.cedriklorenz.ir:443?security=tls
 #نشردهید
 @prrofile_purple
 
+--- پیام جدید ---
+vless://5cc82fdd-847a-4b11-9f91-3d8f35ff9e09@farzandeiran.iransalar.top:21531?security=none&encryption=none&headerType=http&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+🏅
+vless://c3a8f526-6f41-4884-adb8-f33b4ec30fa6@v2.royalway.shop:2053?security=none&encryption=none&headerType=http&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+🥉
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+🥈
+vless://8620a004-648c-43ab-9efe-4d3d82b12dc4@213.177.176.182:26401?security=none&encryption=none&headerType=none&type=tcp#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+🥇
+vless://bb893070-c9c0-42ec-9741-3c42c2acbd5e@94.101.184.65:51302?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=pz1.shahramv1.site#%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D8%AF%D8%A7%D8%A6%D9%85%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%F0%9F%97%BE%20prrofile_purple%40
+☑️
+لطفاً کانفیگ وسرور هارو برای
+دوستان خودهم ارسال کنید تا استفاده کنند
+💚
+#نشردهید
+@prrofile_purple
+
 
 === کانال: @v2city ===
 
