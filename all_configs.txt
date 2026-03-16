@@ -2,19 +2,6 @@
 === کانال: @prrofile_purple ===
 
 --- پیام جدید ---
-vless://5ac2d3b6-33cc-4442-9c0b-ae3909cabaae@31.42.190.76:443?path=%2F&security=none&encryption=none&type=ws#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧜‍♂
-vless://9d15d7ab-5867-4857-b813-bf1924510bca@ez.pubgping.com:8080?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-🧚‍♀
-vless://dd4f4dec-2cb9-4dcf-b8fc-d88ddaf705a5@bl.khakimilad.online:58992?security=none&encryption=none&headerType=none&type=tcp#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
-☑️
-لطفاً کانفیگ وسرور هارو برای
-دوستان خودهم ارسال کنید تا استفاده کنند
-💚
-#نشردهید
-@prrofile_purple
-
---- پیام جدید ---
 vless://20d983ca-d7fa-4fc6-a3db-c6f7e56c4629@188.114.98.0:2087?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=a4.maxriser.ir&fp=chrome&type=ws&allowInsecure=1&sni=a4.maxriser.ir#%E2%9A%A1Telegram%20%3D%20%40prrofile_purple
 ☑️
 لطفاً کانفیگ وسرور هارو برای
