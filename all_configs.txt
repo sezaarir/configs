@@ -485,5 +485,4 @@ trojan://bpb-trojan@94.140.0.1:443?path=%2Ftr%3Fed%3D2560&security=tls&host=sing
 
 === کانال: @iproxy ===
 
-
-=== کانال: @نام_کانال_چهارم ===
+--- خطا در کانال @نام_کانال_چهارم: 404 Client Error: Not Found for url: https://telegram.org/ ---
