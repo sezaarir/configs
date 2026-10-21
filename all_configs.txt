@@ -784,4 +784,5 @@ trojan://bpb-trojan@94.140.0.1:443?path=%2Ftr%3Fed%3D2560&security=tls&host=sing
 
 === کانال: @iproxy ===
 
---- خطا در کانال @نام_کانال_چهارم: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) ---
+
+=== کانال: @نام_کانال_چهارم ===
